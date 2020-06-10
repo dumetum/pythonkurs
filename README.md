@@ -19,7 +19,7 @@ Der vorliegende Kurs ist daher explizit für Menschen ohne Programmierkenntnisse
 
 Ziel des Kurses ist eine Einführung in die Programmierung mit der Programmiersprache Python. Algorithmen und allgemeine Programmierprinzipien werden nur am Rande behandelt.
 
-Ebenso werden keine Werkzeuge (IDEs, Debugging, Unit-Tests) vorgestellt, da das Erlernen der Programmierung an sich im Vordergund steht.
+Ebenso werden keine Werkzeuge (IDEs, Debugging, Unit-Tests) vorgestellt, da das Erlernen der Programmierung an sich im Vordergrund steht.
 
 Natürlich kann der Kurs keine vollständige Einführung in die Sprache bieten. Die Teilnehmer sollen befähigt werden, weitere Schritte selbständig mit Büchern oder dem Internet durchzuführen.
 
@@ -43,7 +43,7 @@ Wenn dann am Ende das Thema Objektorienierung nicht vollständig behandelt werde
 
 ## Hinweise zum Gebrauch
 
-Wie beschrieben sind die Folien nur bedingt zum Selbststudium geeignet. In den Folien wird durch Symbole darauf hingewesen, wo insbesondere ergänzende Erläuterungen durch den Vortragenden notwendig sind.
+Wie beschrieben sind die Folien nur bedingt zum Selbststudium geeignet. In den Folien wird durch Symbole darauf hingewiesen, wo insbesondere ergänzende Erläuterungen durch den Vortragenden notwendig sind.
 
 Die Beispiele (auch gekennzeichnet durch ein Symbol) sind oft nicht in die Folien integriert, sondern werden direkt in einem Editor oder einer IDE am „lebenden Objekt" demonstriert.
 
@@ -99,7 +99,7 @@ Ein solcher Kurs entsteht nicht im luftleeren Raum, sondern basiert neben eigene
 Wer weitergehende Rechte möchte, wende sich gerne an mich.
 
 ## Kontakt
-Fragen und Anregungen gerne an christian.pythonkurs@vodafonemail.de.
+Fragen und Anregungen gerne an pythonkurs@ch-heckler.de.
 
 
 <sup>1</sup>Im Deutschen sind hier alle Geschlechter eingeschlossen. So ist es natürlich auch in den gesamten Unterlagen zu verstehen.
