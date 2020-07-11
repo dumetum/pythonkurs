@@ -255,6 +255,15 @@ Klasse Plist um Methode `splice` erweitern:
 ****
 
 
+== Wie geht es weiter?
+
+Selbst programmieren! Anregungen:
+
+* https://bmu-verlag.de/programmierideen-vorschlaege-fuer-die-umsetzung-eigener-programme/
+* c't-Sonderheft: Python-Projekte: Von alltagstauglich bis völlig nerdig
+* s. auch Projekte aus <<Mat>>
+
+
 == icon:question-circle[] Weitere Übungen
 
 * Verkette Liste (siehe letztes Kapitel): siehe `19_uebung_verkettete_liste`
@@ -273,3 +282,4 @@ Klasse Plist um Methode `splice` erweitern:
 [bibliography]
 * [[[Kle]]] Bernd Klein, Einführung in Python 3
 * [[[EK]]]  Johannes Ernesti, Peter Kaiser: Python 3, Das umfassende Handbuch, Rheinwerk Computing
+* [[[Mat]]] Eric Matthes: Python Crashkurs – Eine praktische, projektbasierte Programmiereinführung, dpunkt.verlag

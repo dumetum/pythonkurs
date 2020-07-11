@@ -77,9 +77,9 @@ Die Graphiken wurden mit yEd (https://www.yworks.com/products/yed) erstellt.
 
 Um die PDF-Folien aus den Asciidoc-Quellen zu erzeugen, ist zunächst asciidoctor-pdf-js zu installieren wie unter https://github.com/Mogztter/asciidoctor-web-pdf beschrieben.
 
-Die Folien in PDF kann man dann durch einen Befehl der folgenden Art erzeugen (ausgehend vom obersten Verzeichnis, andernfalls sind die Pfade entsprechend zu anzupassen):
+Die Folien in PDF kann man dann durch einen Befehl der folgenden Art erzeugen (im Build-Verzeichnis, andernfalls sind die Pfade entsprechend zu anzupassen):
 
-`asciidoctor-pdf --template-require ./Build/template.js ./FolienAsciidoc/01-einfuehrung.adoc -o ./FolienPDF/01-einfuehrung.pdf`
+`asciidoctor-pdf --template-require ./../Build/template.js ../FolienAsciidoc/01-einfuehrung.adoc -o ../FolienPDF/01-einfuehrung.pdf`
 
 ## Quellen
 
