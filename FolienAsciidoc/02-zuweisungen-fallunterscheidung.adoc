@@ -344,6 +344,7 @@ print("Der Wert ist: ", x)
 	`x = int(input("Geben Sie eine Zahl ein: "))`
 ** Gleitkommazahl:
 	`x = float(input("Geben Sie eine Zahl ein: "))`
+* Der Text zwischen `""` wird genau wie angegeben auf dem Bildschirm ausgegeben (mehr dazu später, Stichwort „Zeichenkette“ („String“) ).
 * Beispiel: `ein_ausgabe.py` icon:exclamation-circle[]
 
 
