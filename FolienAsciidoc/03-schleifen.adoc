@@ -11,17 +11,17 @@ include::../Build/attributes-de.adoc[]
 * Es soll ein Programm geschrieben werden, bei dem der Anwender beliebig
   viele Verbrauchsdaten eingeben kann.
 * Es soll der Durchschnitt ermittelt werden.
-* Das Programm soll beendet werden, wenn der Anwender eine negative Zahl eingibt.
+* Das Programm soll beendet werden, wenn der Anwender `ende` eingibt.
 * Algorithmus in Umgangssprache („Pseudocode“):
 +
 ----
 summe = 0
 anzahl = 0
-Gebe eine Zahl ein
-so lange die eingegebene Zahl nicht kleiner als null:
+Gebe eine Zahl oder `ende` ein
+so lange eine Zahl eingegeben wird:
     summe = summe + eingegebene zahl
 	anzahl = anzahl + 1
-	gebe eine Zahl ein
+	gebe eine Zahl oder `ende` ein
 durchschnitt = summe / anzahl
 ----
 
@@ -32,7 +32,7 @@ durchschnitt = summe / anzahl
 ----
     summe = summe + eingegebene zahl
 	anzahl = anzahl + 1
-	gebe eine Zahl ein
+	gebe eine Zahl oder `ende` ein
 ----
 + 
 wird also mehrfach durchlaufen.
@@ -45,12 +45,13 @@ wird also mehrfach durchlaufen.
 ----
 summe = 0
 anzahl = 0
-verbrauch = float(input("Geben Sie einen Verbrauch ein: "))
-while verbrauch >= 0:
-    summe = summe + verbrauch
+verbrauch = input("Geben Sie einen Verbrauch ein (oder ende): ")
+while verbrauch != "ende":
+    summe = summe + float(verbrauch)
     anzahl = anzahl + 1
-    verbrauch = float(input("Geben Sie einen Verbrauch ein"))
+    verbrauch = input("Geben Sie einen Verbrauch ein (oder ende): ")
 durchschnitt = summe / anzahl
+print(durchschnitt)
 ----
 
 == Die While-Schleife
@@ -189,7 +190,7 @@ x   x
 * Es soll die Anzahl unterschiedlicher Zeichenketten bestimmt werden.
 * Problem: Da die Anzahl der Zeichenketten nicht bekannt ist, kann nicht für jede Zeichenkette eine Variable eingeführt werden.
 * Da alle Zeichenketten verglichen werden müssen, funktioniert auch das Vorgehen bei der Durchschnittsberechnung nicht
-(Addiere die eingegebenen Zahlen so lange die eingegebene Zahl nicht kleiner als 0).
+(addiere die eingegebenen Zahlen so lange nicht `ende` eingegeben wird).
 * Wir brauchen also eine Möglichkeit, mehrere Werte in einer Datenstruktur zu speichern.
 * In Python gibt es dazu den Datentyp Liste (`list`).
 
