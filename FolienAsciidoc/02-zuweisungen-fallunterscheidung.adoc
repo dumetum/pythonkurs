@@ -361,6 +361,12 @@ print("Der Wert ist: ", x)
 ** durchschnitt.py icon:exclamation-circle[]
 
 
+== Kommentare
+
+* Text, der in einer Zeile hinter dem `#`-Zeichen stehen, werden vom Python-Interpreter ignoriert.
+* Dies kann zur Kommentierung des Programmtextes verwendet werden.
+* Kommentare sollten mit Bedacht verwendet werden.
+
 == icon:question-circle[] Übung 01 - Berechnung Stunden und Minuten
 
 Schreiben Sie ein Programm, das eine ganze Zahl einliest („Anzahl Minuten“) 
