@@ -1,11 +1,11 @@
 summe = 0
 anzahl = 0
-verbrauch = float(input("Geben Sie einen Verbrauch ein: "))
+verbrauch = input("Geben Sie einen Verbrauch ein (oder ende): ")
 
-while verbrauch >= 0:
-    summe = summe + verbrauch
+while verbrauch != "ende":
+    summe = summe + float(verbrauch)
     anzahl = anzahl + 1
-    verbrauch = float(input("Geben Sie einen Verbrauch ein"))
+    verbrauch = input("Geben Sie einen Verbrauch ein (oder ende): ")
 
 durchschnitt = summe / anzahl
-print("Der Durchschnittsverbrauch ist: ", durchschnitt)
+print(durchschnitt)
