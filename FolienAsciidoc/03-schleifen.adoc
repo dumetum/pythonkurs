@@ -602,7 +602,7 @@ Schleife über die Eingabe:
 		Wenn Wert des Vorgängerzeichens < Aktueller Wert:
 			ergebnis = ergebnis - Wert des Vorgängerzeichens
 		andernfalls
-			ergebnis = ergebnis - Wert des Vorgängerzeichens
+			ergebnis = ergebnis + Wert des Vorgängerzeichens
 	Wert Vorgängerzeichen = aktueller Wert
 ergebnis = ergebnis + aktueller Wert
 ----

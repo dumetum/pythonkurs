@@ -5,7 +5,9 @@
 #
 # Benutzen Sie keine Schleifen, sondern map und reduce
 #
-# Hinweis: Sei s eine Zeichenkette, dann liefert s.split() eine Liste der Wörter
+# Hinweise: 
+# - Sei s eine Zeichenkette, dann liefert s.split() eine Liste der Wörter
+# - Die Funktion max liefert das Maximum ihrer Argumente
 
 from functools import reduce
 

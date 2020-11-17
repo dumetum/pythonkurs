@@ -515,13 +515,15 @@ from functools import reduce
 
 * Schreiben Sie ein Programm, das für einen Satz (gegeben in einer Zeichenkette) die maximale Länge eines Wortes ausgibt.
 * Benutzen Sie keine Schleifen, sondern `map` und `reduce`.
-* Hinweis: Für eine Zeichenkette `s` gibt `s.split()` eine Liste der Wörter an, z.B.: 
+* Hinweise: 
+** Für eine Zeichenkette `s` gibt `s.split()` eine Liste der Wörter an, z.B.: 
 +
 [source,python]
 ----
 s = "Dies ist ein Satz". 
 wortliste = s.split() # ["Dies", "ist" , "ein", "Satz"]
 ----
+** Die Funktion `max` gibt das Maximum ihrer Argumente zurück.
 * siehe Ordner `11_uebung_satz_map_reduce`
 
 	
