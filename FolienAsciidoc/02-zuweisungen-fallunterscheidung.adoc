@@ -5,6 +5,7 @@ Dr. Christian Heckler
 :imagesdir: ../bilder
 :title-separator: ::
 :tafel!:
+:beispiele:
 include::../Build/attributes-de.adoc[]
 
 
@@ -348,6 +349,13 @@ print("Der Wert ist: ", x)
 * Der Text zwischen `""` wird genau wie angegeben auf dem Bildschirm ausgegeben (mehr dazu später, Stichwort „Zeichenkette“ („String“) ).
 * Beispiel: `ein_ausgabe.py` icon:exclamation-circle[]
 
+ifdef::beispiele[]
+== Beispiel
+[source,python]
+----
+include::../Beispiele/Kapitel_2/ein_ausgabe.py[]
+----
+endif::beispiele[]
 
 == Programm
 
