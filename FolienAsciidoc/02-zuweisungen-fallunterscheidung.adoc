@@ -4,6 +4,7 @@ Dr. Christian Heckler
 :sectids!:
 :imagesdir: ../bilder
 :title-separator: ::
+:tafel!:
 include::../Build/attributes-de.adoc[]
 
 
@@ -568,6 +569,8 @@ if a < 20 or a > 100:
 ----
 
 * Wahrheitstabellen icon:info-circle[]
+
+ifdef::tafel[== Erläuterung]
 
 == Der Datentyp `bool`
 

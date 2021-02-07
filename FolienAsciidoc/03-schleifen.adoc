@@ -4,6 +4,7 @@ Dr. Christian Heckler
 :sectids!:
 :imagesdir: ../bilder
 :title-separator: ::
+:tafel!:
 include::../Build/attributes-de.adoc[]
 
 == Fallbeispiel: Durchschnittsverbrauch
@@ -374,6 +375,8 @@ for element in l:
 * Die Variable `l2` verweist nun auf denselben Wert, also dieselbe Liste, wie `l1`.
 * Dies sieht man über `id(l1)` und `id(l2)`
 * Konsequenz: Ändert man die Liste `l2`, so ist auch `l1` geändert.
+
+ifdef::tafel[== Erläuterung]
 
 == Kopieren von Listen
 

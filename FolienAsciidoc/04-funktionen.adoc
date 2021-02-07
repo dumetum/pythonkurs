@@ -4,6 +4,7 @@ Dr. Christian Heckler
 :sectids!:
 :imagesdir: ../bilder
 :title-separator: ::
+:tafel!:
 include::../Build/attributes-de.adoc[]
 
 == Funktionen
@@ -179,6 +180,7 @@ print(a) <2>
 <1> Die lokale Variable `b` hat nun den Wert `2`.
 <2> Die Variable `a` im Hauptprogramm hat nach wie vor den Wert `1`
 
+ifdef::tafel[== Erläuterung]
 
 == Veranschaulichung 
 
@@ -430,7 +432,8 @@ def vorname(t):
 namen.sort(key=vorname)
 ----
 * siehe `funktions_ref.py` icon:exclamation-circle[]
-	
+
+ifdef::tafel[== Erläuterung]	
 
 == Funktionsreferenzen	
 
