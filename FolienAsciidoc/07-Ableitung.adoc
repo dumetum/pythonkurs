@@ -4,7 +4,8 @@ Dr. Christian Heckler
 :sectids!:
 :imagesdir: ../bilder
 :title-separator: ::
-:tafel!:
+:tafel:
+:beispiele:
 include::../Build/attributes-de.adoc[]
 
 
@@ -71,6 +72,15 @@ image::ableitung.jpg[align=center]
 * Eine weitere Klasse könnte ein Sparkonto sein, die ebenfalls von der Konto-Klasse ableitet.
 * Ein Sparkonto hat zusätzlich zu einem Konto einen Zinssatz und eine Methode zur Berechnung der Zinsen.
 * icon:exclamation-circle[] `konto_spar`
+
+ifdef::beispiele[]
+== Beispiel Ableitung
+[source,python]
+----
+include::../Beispiele/Kapitel_7/konto_spar.py[]
+----
+== &#8239;
+endif::beispiele[]
 
 
 == Technische Grundlagen (nach <<EK>>)
@@ -219,6 +229,14 @@ image::mehrfach.jpg[align=center]
    Wird `zeige()` von `A` oder von `B` aufgerufen? 
    `zeige()` von `A`, weil `A` in der Ableitungsliste zuerst auftaucht.
 
+ifdef::beispiele[]
+== Beispiel Mehrfachvererbung
+[source,python]
+----
+include::../Beispiele/Kapitel_7/mehrfach.py[]
+----
+== &#8239;
+endif::beispiele[]
 
 == Mehrfachvererbung 2
 
@@ -255,6 +273,13 @@ Klasse Plist um Methode `splice` erweitern:
 „offset” entspricht dem ersten Index, ab dem die Elemente gelöscht werden sollen, und der Parameter „length” gibt an, wie viele Elemente gelöscht werden sollen. An die Stelle der gelöschten Elemente sollen die Elemente der Liste replacement eingefügt werden.
 ****
 
+ifdef::beispiele[]
+== Beispiel Standardklasse erweitern
+[source,python]
+----
+include::../Beispiele/Kapitel_7/plist.py[]
+----
+endif::beispiele[]
 
 == Wie geht es weiter?
 

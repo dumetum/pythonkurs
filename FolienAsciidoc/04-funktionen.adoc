@@ -4,7 +4,8 @@ Dr. Christian Heckler
 :sectids!:
 :imagesdir: ../bilder
 :title-separator: ::
-:tafel!:
+:tafel:
+:beispiele:
 include::../Build/attributes-de.adoc[]
 
 == Funktionen
@@ -391,6 +392,14 @@ name[0]="Christoph" # Fehler
 
 * siehe `tupel.py` icon:exclamation-circle[]
 
+ifdef::beispiele[]
+== Beispiel Tupel
+[source,python]
+----
+include::../Beispiele/Kapitel_4/tupel.py[]
+----
+endif::beispiele[]
+
 == Sortierung von Listen
 
 * Erinnerung: Eine Liste ist eine Sequenz von Objekten
@@ -432,6 +441,14 @@ def vorname(t):
 namen.sort(key=vorname)
 ----
 * siehe `funktions_ref.py` icon:exclamation-circle[]
+
+ifdef::beispiele[]
+== Beispiel Funktionsreferenzen
+[source,python]
+----
+include::../Beispiele/Kapitel_4/funktions_ref.py[]
+----
+endif::beispiele[]
 
 ifdef::tafel[== Erläuterung]	
 

@@ -4,7 +4,8 @@ Dr. Christian Heckler
 :sectids!:
 :imagesdir: ../bilder
 :title-separator: ::
-:tafel!:
+:tafel:
+:beispiele:
 include::../Build/attributes-de.adoc[]
 
 
@@ -201,6 +202,15 @@ Methoden::
 --
 
 Beispielimplementierung: icon:exclamation-circle[] `konto.py`
+
+ifdef::beispiele[]
+== Beispiel Konto
+[source,python]
+----
+include::../Beispiele/Kapitel_6/konto.py[]
+----
+== &#8239;
+endif::beispiele[]
 
 
 == Illustration - Erzeugung eines Objektes 1
@@ -407,6 +417,14 @@ image::klassenattribute.jpg[align=center]
 * Beispiel: Kontoklasse: Das Attribut kontostand sollte nicht von außen zugreifbar sein, sondern nur über Methoden verändert werden: 
 icon:exclamation-circle[] `private.py`
 
+ifdef::beispiele[]
+== Beispiel Private
+[source,python]
+----
+include::../Beispiele/Kapitel_6/private.py[]
+----
+endif::beispiele[]
+
 
 == OO und Wiederverwendung
 
@@ -421,6 +439,13 @@ icon:exclamation-circle[] `private.py`
 Methode `+__str__()+` der Klasse und ruft diese auf (`+k.__str__()+`)
 * icon:exclamation-circle[] `string.py`
 
+ifdef::beispiele[]
+== Beispiel String-Methode
+[source,python]
+----
+include::../Beispiele/Kapitel_6/string.py[]
+----
+endif::beispiele[]
 
 == Operator Overloading
 
@@ -443,6 +468,14 @@ Methode `+__str__()+` der Klasse und ruft diese auf (`+k.__str__()+`)
 * Bei der Addition werden also die Minuten addiert.
 * Addition einer Zahl (`int`): Muss in `add` abgefragt werden.
 * Weiterer Anwendungsfall von `+__radd__()+`
+
+ifdef::beispiele[]
+== Beispiel Zeitspanne
+[source,python]
+----
+include::../Beispiele/Kapitel_6/zeitspanne.py[]
+----
+endif::beispiele[]
 
 == icon:question-circle[] Übung Operator Overloading 
 

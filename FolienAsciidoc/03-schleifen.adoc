@@ -4,7 +4,8 @@ Dr. Christian Heckler
 :sectids!:
 :imagesdir: ../bilder
 :title-separator: ::
-:tafel!:
+:tafel:
+:beispiele:
 include::../Build/attributes-de.adoc[]
 
 == Fallbeispiel: Durchschnittsverbrauch
@@ -80,6 +81,14 @@ weitere Anweisungen
 ** Die Ausführung des Schleifenrumpfes wird abgebrochen.
 ** Die Schleife wird verlassen, dass es wird mit der ersten Anweisung hinter der Schleife fortgefahren.
 
+ifdef::beispiele[]
+== Beispiel Break
+[source,python]
+----
+include::../Beispiele/Kapitel_3/break.py[]
+----
+endif::beispiele[]
+
 == Die Continue-Anweisung
 
 * Die Lösung `break.py` erlaubt negative Zahlen als Eingabe. Das ist bei einem Verbrauchswert aber nicht sinnvoll.
@@ -89,6 +98,14 @@ weitere Anweisungen
 ** Die Ausführung des Schleifenrumpfes wird abgebrochen.
 ** Die Schleife wird nicht verlassen. Es wird mit dem Schleifenkopf (der Schleifenbedingung) fortgefahren.
 * Die Anweisungen `break` und `continue` wirken auf die aktuelle Schleife. Nicht auf evtl. vorhandene äußere Schleifen.
+
+ifdef::beispiele[]
+== Beispiel Continue
+[source,python]
+----
+include::../Beispiele/Kapitel_3/continue.py[]
+----
+endif::beispiele[]
 
 == Fallbeispiel: Quersumme
 
@@ -106,6 +123,15 @@ für jede Ziffer der Zahl tue:
 ----
 * Man muss also über die Ziffern der Zahl „schleifen“.
 * Das Ganze in Python: icon:exclamation-circle[] quersumme.py
+
+
+ifdef::beispiele[]
+== Beispiel Quersumme
+[source,python]
+----
+include::../Beispiele/Kapitel_3/quersumme.py[]
+----
+endif::beispiele[]
 
 
 == Die For-Schleife
@@ -241,6 +267,7 @@ while nummer < anzahl:
 print("Es gibt", len(mitgliederliste), "Mitglieder!")
 ----
 
+
 == Methoden
 
 * Wdh.: `meine_liste.append("Max Mustermann")`
@@ -353,6 +380,17 @@ for element in l:
     print(element)
 ----
 
+
+ifdef::beispiele[]
+== Beispiel Schleife über Liste
+[source,python]
+----
+include::../Beispiele/Kapitel_3/schleife_liste.py[]
+----
+endif::beispiele[]
+
+
+
 == icon:question-circle[] Übung 07 - Listen
 
 * Die Verbrauchsdaten eines PKW seien in einer Liste von Gleitkommazahlen gegeben.
@@ -394,6 +432,15 @@ ifdef::tafel[== Erläuterung]
 * Ändert man eine Liste während man über die Liste schleift, sollte man über eine Kopie der Liste schleifen.
 * Andernfalls könnte es zu Verwerfungen kommen.
 * Bsp.: schleife_liste_kopie.py icon:exclamation-circle[]
+
+ifdef::beispiele[]
+== Beispiel Schleife über eine Listenkopie
+[source,python]
+----
+include::../Beispiele/Kapitel_3/schleife_liste_kopie.py[]
+----
+endif::beispiele[]
+
 
 == Fallbeispiel
 
@@ -525,6 +572,15 @@ if flagge:
 
 Beispiel:: `flagge.py` icon:exclamation-circle[]
 
+ifdef::beispiele[]
+== Beispiel Flagge
+[source,python]
+----
+include::../Beispiele/Kapitel_3/flagge.py[]
+----
+endif::beispiele[]
+
+
 
 == Einschub - Der Datentyp NoneType
 
@@ -582,6 +638,18 @@ Prinzip::
 ----
 
 Beispiel:: `vorgaenger.py` icon:exclamation-circle[]
+
+
+ifdef::beispiele[]
+== Beispiel Vorgänger
+[source,python]
+----
+include::../Beispiele/Kapitel_3/vorgaenger.py[]
+----
+== &#8239;
+
+endif::beispiele[]
+
 	
 	
 == Fallbeispiel - Römische Zahlen
@@ -619,11 +687,33 @@ ergebnis = ergebnis + aktueller Wert
 * Siehe: `roem3.py` icon:exclamation-circle[]
 
 
+ifdef::beispiele[]
+== Beispiel Römische Zahlen und Vorgänger
+[source,python]
+----
+include::../Beispiele/Kapitel_3/roem3.py[]
+----
+== &#8239;
+endif::beispiele[]
+
+
+
 == Schleife über mehrere Zahlen
 
 * Wir wollen eine Schleife einbauen, so dass der Anwender mehrere römische Zahlen nacheinander eingeben kann.
 * Siehe: `roem4.py` icon:exclamation-circle[]
 * Die Lösung ist unschön und unübersichtlich.
+
+
+ifdef::beispiele[]
+== Beispiel Schleife römische Zahlen
+[source,python]
+----
+include::../Beispiele/Kapitel_3/roem4.py[]
+----
+endif::beispiele[]
+
+
 
 == Funktion zur Umrechnung 
 
@@ -636,12 +726,44 @@ ergebnis = ergebnis + aktueller Wert
 * In der Schleife ist die Implementierung der Funktion nicht wichtig.
 * Siehe: `roem5.py` icon:exclamation-circle[]
 
+
+ifdef::beispiele[]
+== Beispiel Römische Zahlen und Funktionen
+[source,python]
+----
+include::../Beispiele/Kapitel_3/roem5.py[]
+----
+== &#8239;
+endif::beispiele[]
+
+
+
 == Modul für römische Zahlen
 
 * Motivation für _Module_
 * Wir haben schon die import-Anweisung gesehen.
 * Wünschenswert: Auslagerung der Funktion zur Umrechnung römischer Zahlen in ein „Modul“ und dessen Verwendung.
 * siehe `roem6_mod.py` und `roem6_anw.py` icon:exclamation-circle[]
+
+
+ifdef::beispiele[]
+== Beispiel Modul für römische Zahlen
+[source,python]
+----
+include::../Beispiele/Kapitel_3/roem6_mod.py[]
+----
+endif::beispiele[]
+
+
+ifdef::beispiele[]
+== Beispiel Anwendung des Moduls für römische Zahlen
+[source,python]
+----
+include::../Beispiele/Kapitel_3/roem6_anw.py[]
+----
+endif::beispiele[]
+
+
 
 	
 == Referenzen

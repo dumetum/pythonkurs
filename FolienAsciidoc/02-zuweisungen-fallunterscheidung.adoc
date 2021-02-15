@@ -4,7 +4,7 @@ Dr. Christian Heckler
 :sectids!:
 :imagesdir: ../bilder
 :title-separator: ::
-:tafel!:
+:tafel:
 :beispiele:
 include::../Build/attributes-de.adoc[]
 
@@ -350,7 +350,7 @@ print("Der Wert ist: ", x)
 * Beispiel: `ein_ausgabe.py` icon:exclamation-circle[]
 
 ifdef::beispiele[]
-== Beispiel
+== Beispiel Ein- und Ausgabe
 [source,python]
 ----
 include::../Beispiele/Kapitel_2/ein_ausgabe.py[]
@@ -368,6 +368,14 @@ endif::beispiele[]
 ** Ausgabe via `print`-Funktion
 * Bsp.: Programm, das drei Zahlen einliest und den Durchschnitt berechnet:
 ** durchschnitt.py icon:exclamation-circle[]
+
+ifdef::beispiele[]
+== Beispiel Programm zur Durchschnittsberechnung
+[source,python]
+----
+include::../Beispiele/Kapitel_2/durchschnitt.py[]
+----
+endif::beispiele[]
 
 
 == Kommentare
@@ -592,6 +600,14 @@ ifdef::tafel[== Erläuterung]
 * Auch Werte diesen Datentyps können einer Variablen zugewiesen werden.
 * Es können Ausdrücke gebildet werden mit den Operatoren and, or und not.
 * Beispiel: datentyp_bool.py icon:exclamation-circle[]
+
+ifdef::beispiele[]
+== Beispiel Datentyp boolean
+[source,python]
+----
+include::../Beispiele/Kapitel_2/datentyp_bool.py[]
+----
+endif::beispiele[]
 	
 == icon:question-circle[] Übungen If-Anweisung
 
@@ -689,7 +705,7 @@ print(len(leerer_string)) <1>
 * Dabei kann man auch von hinten zählen: `s[-1]`
 
 
-== Operationen auf Zeichenketten icon:exclamation-circle[]
+== Operationen auf Zeichenketten
 
 * Zeichenketten können verglichen werden: `+==, <, <=, >, >=+`
 * `+`: Konkatenation („Aneinanderhängen“)
