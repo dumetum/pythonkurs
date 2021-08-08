@@ -41,7 +41,8 @@ include::../Build/attributes-de.adoc[]
 
 == Algorithmus
 
-* Um die Aufgabe automatisch zu lösen, benötigt man eine Bearbeitungsvorschrift. Diese nennt man auch Algorithmus.
+* Um die Aufgabe automatisch zu lösen, benötigt man eine Bearbeitungsvorschrift („Schritt - für - Schritt - Anleitung“). 
+  Diese nennt man auch *Algorithmus*.
 * Ein Algorithmus muss die folgenden Eigenschaften haben:
 ** Endliche Beschreibung.
 ** Beendigung nach endlich vielen Schritten.
@@ -59,6 +60,38 @@ include::../Build/attributes-de.adoc[]
 ** Flußdiagramm, 
 ** Struktogramm,
 ** Umgangssprache, Pseudocode
+
+== Beispiel: Nachschlagen im Lexikon
+
+* Aufgabe: Nachschlagen eines Begriffes im Lexikon
+* Algorithmus:
+** Schlage das Lexikon in der Mitte auf
+** Befindet sich dort der gesuchte Begriff: fertig
+** Steht der gesuchte Begriff im Alphabet vor den Begriffen auf der Seite, suche in der vorderen Hälfte des Lexikons, andernfalls in der hinteren Hälfte
+* Könnte das ein Rechner schon automatisch ausführen? Warum? Warum nicht?
+
+== Beispiel: Nachschlagen im Lexikon II
+
+* Setze den Suchbereich auf das gesamte Lexikon
+* So lange der Begriff noch nicht gefunden ist:
+** Schlage das Lexikon in der Mitte des Suchbereichs auf.
+** Steht dort der Begriff: fertig
+** Suchbegriff lexikographisch kleiner als Begriffe auf Seite:
+*** JA: Schränke den Suchbereich auf die vordere Hälfte des Suchbereiches ein.
+*** NEIN: Schränke den Suchbereich auf die hintere Hälfte des Suchbereiches ein.
+
+== Beispiel: Nachschlagen im Lexikon III
+
+* Fragen:
+** Was passiert, wenn der gesuchte Begriff nicht im Lexikon steht? Verfeinern Sie den Algorithmus, so dass auch dieser Fall beachtet wird.
+** Das Lexikon hat 1000 Seiten. Wie oft muss man maximal nachschlagen, um den Begriff zu finden?
+
+== icon:question-circle[] Übung - Algorithmus Maximumbestimmung
+
+Es soll der älteste Kursteilnehmer bestimmt werden:
+
+* Beschreiben Sie einen Algorithums!
+* Nach wievielen Ausführungsschritten ist der Algorithmus beendet?
 
 == Programm
 
