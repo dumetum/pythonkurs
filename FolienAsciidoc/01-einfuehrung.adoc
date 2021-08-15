@@ -202,6 +202,14 @@ NOTE: Wenn man die Datei-Endung „.py“ mit dem Python-Interpreter verknüpft,
 Es gibt auch Mischformen: Der Quelltext wird in ein (binäres) Zwischenformat übersetzt, das dann von einer „virtuellen Maschine“ (einem Interpreter für dieses Format) ausgeführt wird. Beispiel: Java.
 ****
 
+== Zusammenfassende Fragen
+
+* Was ist ein Algorithmus?
+* Welche Eigenschaften hat ein Algorithums?
+* Wofür braucht man einen Algorithums?
+* Was ist ein Programm?
+* Wie führt ein Rechner ein Programm aus?
+
 == Referenzen
 
 [bibliography]

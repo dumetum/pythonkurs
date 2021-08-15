@@ -1,5 +1,5 @@
-# Zeilen, die mit # anfangen, werden vom Interpreter ignoriert und können für Kommentare verwendet werden
-#
+# Zeilen, die mit # anfangen, werden vom Interpreter ignoriert 
+# und können für Kommentare verwendet werden
 
 # Eingabe
 zahl1 = int(input("Geben Sie die erste Zahl ein: "))

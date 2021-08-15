@@ -1,4 +1,5 @@
-# Eine Zeile, die mit # anfaengt, wird vom Interpreter ignoriert und dient als Kommentar
+# Hinweis: Eine Zeile, die mit # anfaengt, wird vom Interpreter  
+# ignoriert und dient als Kommentar
 
 # Eingabe einer ganzen Zahl
 ganze_zahl = int(input("Geben Sie eine ganze Zahl ein: "))

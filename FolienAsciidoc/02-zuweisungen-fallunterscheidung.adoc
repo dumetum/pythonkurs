@@ -9,16 +9,41 @@ Dr. Christian Heckler
 include::../Build/attributes-de.adoc[]
 
 
-== Eigenschaften von Python
+== Python
 
-* Interpretierte Skriptsprache
-* Dynamisch getypt
-* Verschiedene Programmierparadigmen (prozedural, funktional, OO, …)
-* Für alle gängigen Plattformen verfügbar (Windows, Unix, Mac)
-* Insbesondere für Anfänger geeignet
-* Umfangreiche Standardbibliothek
-* Entwickelt von Guido van Rossum am CWI Amsterdam (Centrum Wiskunde & Informatica ) ab 1989
-* Weite Verbreitung (s. diverse Programmiersprachenranglisten)
+* Ein Python-Programm ist in einer Textdatei gespeichert (mit der Endung „.py“).
+* Es wird durch den Python-Interpreter ausgeführt.
+
+
+== Erstellung eines Python-Programms
+
+* Zur Erstellung kann ein beliebiger Texteditor verwendet werden, z.B. notepad(++).
+* Der Quelltext darf keine Formatierungszeichen enthalten, wie sie beispielsweise von Textprogrammen (Word) erzeugt werden.
+* Hilfreich sind Editoren, die eine Unterstützung für die Erstellung von Programmen bieten, z.B.
+** Syntaxhervorhebung
+** Start eines Programms aus dem Editor heraus
+
+NOTE: Je nach Editor werden also Teile des Programms (farblich) hervorgehoben dargestellt.
+Die Textdatei enthält aber keine Formatierungszeichen.
+
+
+== Ausführung eines Python-Programms
+
+* Es gibt mehrere Möglichkeiten zum Aufruf eines Python-Programms:
+* Kommandozeile (cmd / sh): `python progr_bsp.py`
+* Windows: 
+** Einer Datei kann über die Datei-Endung ein Programm zur Ausführung zugeordnet werden, 
+   z.B. „.doc“ -> Word
+** Analog kann Dateien mit der Endung „.py“ der Python-Interpreter zugeordnet werden. 
+   Dann können Python-Programme auch per Doppelklick gestartet werden.
+* Unix / Linux: Erste Zeile in der Programmdatei:
++
+----
+#!/usr/bin/python
+----
+* Aus einem Editor, der diese Funktionalität anbietet.
+* Aus einer Entwicklungumgebung (IDE).
+
 
 == Versionen von Python
 
@@ -34,80 +59,14 @@ include::../Build/attributes-de.adoc[]
 python -V bzw. python3 -V
 ----
 
-== Python-Interpreter
-
-* Der Python-Interpreter kann ein Python-Programm ausführen, 
-  das in einer Textdatei (mit der Endung .py) abgespeichert ist. (Wie im Beispiel gesehen.)
-* Es gibt aber auch einen interaktiven Modus, in dem Python-Anweisungen ausgeführt werden können, 
-  ohne ein Programm zu schreiben.
-  
-== Ausführung eines Python-Programms
-
-* Es gibt mehrere Möglichkeiten zum Aufruf eines Python-Programms:
-* Kommandozeile (cmd): `python progr_bsp.py`
-* Windows: 
-** Einer Datei kann über die Datei-Endung ein Programm zur Ausführung zugeordnet werden, 
-   z.B. „.doc“ -> Word
-** Analog kann Dateien mit der Endung „.py“ der Python-Interpreter zugeordnet werden. 
-   Dann können Python-Programme auch per Doppelklick gestartet werden.
-* Unix / Linux: Erste Zeile in der Programmdatei:
-+
-----
-#!/usr/bin/python
-----
-* Aus einem Editor, der diese Funktionalität anbietet.
-* Aus einer Entwicklungumgebung (IDE).
-
-
-== Python-Interpreter: Interaktiver Modus
-
-* Möchte man Python-Anweisungen ausprobieren, ohne ein Programm in einer Textdatei zu erstellen, 
-  kann der Interpreter auch im „interaktiven“ Modus aufgerufen werden.
-** Kommandozeile: Eingabe von `python` (bzw. `python3` unter Unix)
-** Über das Windows-Startmenu
-* Der Interpreter meldet sich mit dem „Prompt“: `>>>`
-* Jetzt können Anweisungen eingegeben werden, die mit der Return-Taste abgeschlossen werden, z.B.:
-+
-----
->>> print(“Hallo“)
-Hallo
-----
-
-== Erstellung eines Python-Programms
-
-* Ein Python-Programm ist eine Textdatei mit der Endung „.py“
-* Zur Erstellung kann also ein beliebiger Texteditor verwendet werden, z.B. notepad(++).
-* Der Quelltext darf keine Formatierungszeichen enthalten, wie sie beispielsweise von Textprogrammen (Word) erzeugt werden.
-* Hilfreich sind Editoren, die eine Unterstützung für die Erstellung von Programmen bieten, z.B.
-** Syntaxhervorhebung
-** Start eines Programms aus dem Editor heraus
-** Start der interaktiven Shell aus dem Editor heraus
-
-NOTE: Je nach Editor werden also Teile des Programms hervorgehoben dargestellt.
-Die Textdatei enthält aber keine Formatierungszeichen.
-
-
-== Der Editor Geany
-
-* Allgemeiner Editor mit Python-Unterstützung
-* Syntaxhervorhebung
-* Start von (Python-) Programmen aus dem Editor
-* www.geany.org
-* Einstellungen:
-** Zeichenkodierung UTF-8: `Bearbeiten-Einstellungen-Dateien`
-** Einrückung durch Leerzeichen: `Bearbeiten-Einstellungen-Editor-Einrückung`
-** Vor der Ausführung eines Programms aus Geany muss die Datei  gespeichert sein (mit der Endung .py), 
-   sonst erkennt Geany nicht, dass es sich um ein Python-Prg. handelt.
-** Evtl. muss das Kommando zur Programmausführung angepasst werden: Erstellen – Kommandos zum Erstellen konfigurieren
 
 == Thonny
 
-* siehe thonny.org
+* Im Kurs wird die Entwicklungsumgebung Thonny verwendet (s. thonny.org)
 * Thonny ist eine Python-Entwicklungsumgebung insbesondere für Anfänger.
 * Eigenschaften
 ** Syntaxhervorhebung
 ** Ausführung von Python-Programmen aus dem Editor
-** Verwendung der interaktiven Shell aus dem Editor
 ** Schrittweise Ausführung eines Python-Programms möglich
 ** Anzeige von Variableninhalten
 * Thonny bringt eine eigene Python-Implementierung mit. Es reicht also für die ersten Schritte, nur Thonny zu installieren.
@@ -123,10 +82,11 @@ Die Textdatei enthält aber keine Formatierungszeichen.
 print("Hallo Welt")
 ----
 * Rufen Sie das Programm auf:
-** aus dem Editor und
+** aus dem Editor / IDE (Thonny) und
 ** auf der Kommandozeile („Eingabeaufforderung“):
 *** Wechseln Sie in das Verzeichnis, in dem die Datei liegt (Kommando `cd`)
-*** Aufruf `python hallo_welt.py`
+*** Aufruf `python hallo_welt.py` bzw. `python3 hallo_welt.py`
+
 
 == Hinweis zum Aufruf des Interpreters
 
@@ -146,14 +106,21 @@ C:\Python36\python programm.py
 * Wenn man der Dateiendung „.py“ den Python-Interpreter zuordnet, kann man Python-Programme auch per Doppelklick starten.
 
 
-== icon:question-circle[] Übung: Interaktive Shell
+== Interaktive Shell
 
-* Starten Sie die Python-Konsole (über das Windows-Menü oder die Kommandozeile)
-* Geben Sie `Hallo Welt` aus über die Eingabe von
-+
-----
-print("Hallo Welt")
-----
+Hinweis:
+
+* Der Python-Interpreter kann nicht nur Python-Programme ausführen. Er kann auch in einem sogenannten „interaktiven Modus“ betrieben werden.
+* Dieser eignet sich zum Beispiel, um Dinge auszuprobieren, ohne ein Programm zu erstellen.
+* Aufgabe: Erkundigen Sie sich im Internet oder dem Arbeitsbuch über den interaktiven Modus und probieren Sie ihn aus!
+
+
+== Zusammenfassende Fragen
+
+* Was ist „Python“?
+* Was ist ein Python-Programm?
+* Wie führt man ein Python-Programm aus?
+* Was ist der „interaktiven Modus“? Wozu dient er?
 
 
 == Arbeiten mit Zahlen
@@ -166,7 +133,7 @@ print("Hallo Welt")
 ** Gleitkommazahlen („Floating Point“, „float“): 
 *** Werden in Python mit einem Punkt geschrieben: 0.8
 *** Bsp: Rabatt-Faktor
-* In der Shell kann man mit Zahlen rechnen wie mit einem Taschenrechner icon:info-circle[]
+
 
 == Operationen auf Zahlen
 
