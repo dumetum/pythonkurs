@@ -299,7 +299,7 @@ x = math.sqrt(5)
 == Ein- und Ausgabe
 
 * Erinnerung: EVA-Prinzip
-* Ausgabe: Z.B. auf dem Bildschirm:
+* *Ausgabe*: Z.B. auf dem Bildschirm:
 +
 [source,python]
 ----
@@ -308,7 +308,7 @@ print("Der Wert ist: ", x)
 ----
 * Ausgabe von beliebig vielen Werten durch Komma getrennt
 * `print` ist eine Funktion. Der Rückgabewert interessiert uns nicht.
-* Eingabe: Z.B. mit der Tastatur: `input`-Funktion
+* *Eingabe*: Z.B. mit der Tastatur: `input`-Funktion
 ** Ganze Zahl:
 	`x = int(input("Geben Sie eine Zahl ein: "))`
 ** Gleitkommazahl:
@@ -351,6 +351,16 @@ endif::beispiele[]
 * Dies kann zur Kommentierung des Programmtextes verwendet werden.
 * Kommentare sollten mit Bedacht verwendet werden.
 
+
+== Zusammenfassende Fragen
+
+* Mit welchen Daten haben wir uns beschäftigt?
+* Was ist eine Variable; eine Zuweisung?
+* Was ist ein Ausdruck?
+* Was ist eine Bibliothek?
+* Welche Arten von Ein- und Ausgabe haben wir betrachtet?
+* Welche Elemente eines Programms haben wir bisher kennen gelernt?
+
 == icon:question-circle[] Übung 01 - Berechnung Stunden und Minuten
 
 Schreiben Sie ein Programm, das eine ganze Zahl einliest („Anzahl Minuten“) 
@@ -362,6 +372,7 @@ Beispiel:
 * Ausgabe: `2 Stunden und 16 Minuten`
 
 siehe Ordner `uebungen/01_minuten`
+
 
 == Fallunterscheidungen
 
@@ -575,7 +586,15 @@ ifdef::beispiele[]
 include::../Beispiele/Kapitel_2/datentyp_bool.py[]
 ----
 endif::beispiele[]
-	
+
+
+== Zusammenfassende Fragen
+
+* Was ist ein Block? Wozu dient er?
+* Wie funktioniert eine Fallunterscheidung in Python? Welche Arten gibt es?
+* Was ist ein Wahrheitswert? Wofür braucht man sie?
+
+
 == icon:question-circle[] Übungen If-Anweisung
 
 * Übung 2: Erweiterung des Minutenbeispiels um Abfrage auf negative Zahlen
@@ -706,6 +725,13 @@ s[0] = "J" # Fehler
 ----
 s = "J" + s[1:len(s)]
 ----
+
+== Zusammenfassende Fragen
+
+* Was ist eine Zeichenkette?
+* Wie funktioniert die Indizierung?
+* Was ist der Unterschied zwischen `42` und `"42"`?
+
 	
 == icon:question-circle[] Übung 04 - Zeichenketten
 
