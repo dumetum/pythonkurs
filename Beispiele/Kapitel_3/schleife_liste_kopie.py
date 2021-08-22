@@ -1,5 +1,5 @@
-# Aus einer Liste von ganzen Zahlen sollen alle negativen Zahlen gelöscht werden.
-# Während der Schleife wird also die Liste veraendert.
+# Aus einer Liste von ganzen Zahlen sollen alle negativen Zahlen gelöscht
+# werden. Während der Schleife wird also die Liste veraendert.
 
 
 # Fall 1: Schleife über die Liste selbst. Das Ergebnis ist fehlerhaft:

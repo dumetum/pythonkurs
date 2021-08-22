@@ -140,6 +140,11 @@ print(l1 == l2) # True
 ** https://de.wikipedia.org/wiki/Entwurfsmuster
 
 
+== Zusammenfassende Fragen
+
+* Was ist ein Datentyp? Welche Datentypen kennen Sie?
+* Was ist der Unterschied zwischen Gleichheit und Identität?
+
 == Beispiel: Konto-Klasse
 
 Ziel: Programmierung einer Klasse `Konto`, so dass in einem Programm beispielsweise folgendes möglich ist
@@ -338,6 +343,12 @@ k.einzahlen(10) # Interpretiert wie Konto.einzahlen(k, 10)
 * `+__init__()+` ist eine sog. „magische Methode“, weil sie per Namenskonvention automatisch von Python aufgerufen wird.
 
 
+== Zusammenfassende Fragen
+
+* Woraus besteht eine Klasse?
+* Wie wird ein Objekt einer Klasse erzeugt?
+* Was passiert dabei?
+
 == icon:question-circle[] Übungen 
 
 * Kontoklasse erweitern:
@@ -476,6 +487,16 @@ ifdef::beispiele[]
 include::../Beispiele/Kapitel_6/zeitspanne.py[]
 ----
 endif::beispiele[]
+
+
+==  Zusammenfassende Fragen
+
+* Was versteht man unter Zugriffsrechten?
+* Was ist der Sinn?
+* Wie sind sie in Python implementiert?
+* Was versteht man unter Operator Overloading?
+* Wie ist es in Python implementiert?
+
 
 == icon:question-circle[] Übung Operator Overloading 
 

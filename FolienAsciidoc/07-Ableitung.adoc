@@ -286,6 +286,7 @@ endif::beispiele[]
 Selbst programmieren! Anregungen:
 
 * https://bmu-verlag.de/programmierideen-vorschlaege-fuer-die-umsetzung-eigener-programme/
+* Code-Katas: siehe https://de.wikipedia.org/wiki/Kata_(Programmierung)
 * c't-Sonderheft: Python-Projekte: Von alltagstauglich bis völlig nerdig
 * s. auch Projekte aus <<Mat>>
 

@@ -175,6 +175,24 @@ For-Schleife:: Im Schleifenrumpf werden alle Elemente einer Kollektion (z.B. Str
 NOTE: Die `break`- und `continue`-Anweisung gibt es bei beiden Schleifenformen.
 
 
+== Zusammenfassende Fragen
+
+Im Kapitel „Algorithmen“ hatten wir zwei Beispiele:
+
+* Nachschlagen eines Begriffes in einem Lexikon
+* Bestimmung des Alters des ältesten Kursteilnehmers
+
+Welche Art von Schleife kommt dort jeweils zum Einsatz?
+
+Vervollständigen Sie Ihr Arbeitsblatt mit der neuen Kontrollanweisung *Schleife*!
+
+
+== Weiterführende Fragen
+
+* Sind `break` und `continue` notwendig, oder können Sie „alle Programme“ auch ohne formulieren?
+* Wird die `for`-Schleife benötigt? Wie würden Sie über die Zeichen einer Zeichenkette schleifen, wenn nur die `while`-Schleife zur Verfügung stünde?
+
+
 == icon:question-circle[] Übung 05 - Schleife
 
 * Schreiben Sie ein Programm, das als Eingabe erhält:
@@ -196,7 +214,7 @@ NOTE: Die `break`- und `continue`-Anweisung gibt es bei beiden Schleifenformen.
 == icon:question-circle[] Übung 06A - Zusatzübung Schleifen
 
 * Schreiben Sie ein Programm, das ein Kreuz auf dem Bildschirm ausgibt.
-  Die Anzahl der Zeile sind eine Programmeingabe. Bei der Eingabe 5 soll
+  Die Anzahl der Zeilen ist eine Programmeingabe. Bei der Eingabe 5 soll
   das Kreuz also folgendermaßen aussehen:
 +
 ----
@@ -390,6 +408,16 @@ include::../Beispiele/Kapitel_3/schleife_liste.py[]
 endif::beispiele[]
 
 
+== Zusammenfassende Fragen
+
+* Was ist eine Liste? Wozu wird sie benötigt?
+* Wie erstellt man eine leere Liste?
+* Wie fügt man ein Element zu einer Liste?
+* Wie kann man feststellen, ob ein Element bereits in einer Liste enthalten ist?
+* Was ist eine Methode?
+* Wie schleift man über die Elemente einer Liste?
+* Vervollständigen Sie Ihr Arbeitsblatt um die neue Datenstruktur!
+
 
 == icon:question-circle[] Übung 07 - Listen
 
@@ -440,6 +468,20 @@ ifdef::beispiele[]
 include::../Beispiele/Kapitel_3/schleife_liste_kopie.py[]
 ----
 endif::beispiele[]
+
+
+== Übung
+
+Wie sieht die Liste l2 nach den folgenden Anweisungen aus?
+
+[source,python]
+----
+	l1 = [1,2,3]
+	l2 = [l1, 4]
+	l1[0] = 6
+----
+
+Verdeutlichen Sie sich die Situation graphisch!
 
 
 == Fallbeispiel
@@ -552,6 +594,19 @@ for value in d.values():
 `d.pop(k)`:: Gibt den Wert zum Schlüssel `k` und löscht diesen
 `d.popitem()`:: Liefert beliebiges Schlüssel-Wert-Paar und löscht dieses
 `d.update(d2)`:: Fügt Dictionary `d2` zu `d` hinzu
+
+
+== Zusammenfassende Fragen
+
+* Was ist ein Dictionary?
+* Wozu wird es bnötigt?
+* Ergänzen Sie Ihr Arbeitsblatt um die Datenstruktur *dictionary*!
+
+
+== Schleifen - Programmierprinzipien und Beispiele
+
+Um das Thema Schleifen zu verinnerlichen folgen zwei allgemeine Vorgehensweisen bei Schleifen,
+die so oder so ähnlich immer wieder auftauchen und ein etwas größeres Beispiel.
 
 
 == Schleife - Programmierprinzip „Flagge“

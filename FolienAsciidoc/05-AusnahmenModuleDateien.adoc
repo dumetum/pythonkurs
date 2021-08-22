@@ -152,6 +152,15 @@ include::../Beispiele/Kapitel_5/ex9.py[]
 == &#8239;
 endif::beispiele[]
 
+
+== Zusammenfassende Fragen
+
+* Was ist eine „Ausnahme“? Wofür werden sie verwendet?
+* Wie kann eine Ausnahme behandelt werden?
+* Wie kann man selbst eine Ausnahme „werfen“? Wann macht man das?
+* Wie würden Sie bei der Programmerstellung bezüglich Ausnahmesituationen umgehen?
+
+
 == icon:question-circle[] Übung 12 - Ausnahmen und röm. Zahlen
 
 * Was passiert, wenn Sie bei der aktuellen Lösung eine Zeichenkette angeben, die keiner römischen Zahl entspricht?
@@ -160,8 +169,8 @@ endif::beispiele[]
 ** Bei einer fehlerhaften Eingabe soll eine entsprechende Meldung ausgegeben werden 
    und mit der nächsten Eingabe fortgefahren werden.
 * siehe Ordner `12_uebung_roemische_zahl_ausnahmen`
-	
-	
+
+
 == Module - Motivation
 
 * Motivation von Funktionen: Wiederverwendung
@@ -255,6 +264,13 @@ include::../Beispiele/Kapitel_5/mod4.py[]
 ----
 endif::beispiele[]
 
+
+== Zusammenfassende Fragen
+
+* Was ist ein Modul?
+* Wie wird ein Modul erstellt?
+* Wie wird ein Modul verwendet?
+
 == Pakete
 
 * Wie kann man zusammengehörige Module gruppieren?
@@ -297,6 +313,13 @@ Was passiert beim Import eines Pakets?
 
 * Beim Import eines Pakets wird die Datei `__init__.py` in dem entsprechenden Ordner ausgeführt.
 * Dort kann man also die Importe der Module durchführen.	
+
+
+== Zusammenfassende Fragen
+
+* Was ist ein Paket?
+* Wie wird ein Paket erstellt?
+* Wie wird ein Paket verwendet?
 	
 	
 == Module und Pakete - Zusammenfassung

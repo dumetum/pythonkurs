@@ -129,6 +129,14 @@ Auch Funktionen genügen dem EVA-Prinzip:
 * *Verarbeitung*: Im Funktionsrumpf
 * *Ausgabe*: Rückgabewert per return
 
+
+== Zusammenfassende Fragen
+
+* Wofür braucht man eine Funktion?
+* Wie ruft man eine Funktion auf?
+* Wie werden Parameter übergeben?
+* Wie kann man den Rückgabewert verarbeiten?
+
 == icon:question-circle[] Übung 08A: Funktion Wortlänge
 
 * Schreiben Sie eine Funktion `berechne_max_wortlaenge`
@@ -215,6 +223,7 @@ image::parameteruebergabe2.jpg[align=center]
 * Schreiben Sie eine Funktion die in einer Liste alle Vorkommen von 8 durch 16 ersetzt.
 * Die Funktion soll die Anzahl der ersetzten Elemente zurückgeben.
 * siehe Ordner `uebungen/09_uebung_parameteruebergabe`	
+* Machen Sie sich noch einmal graphisch klar, was genau passiert.
 	
 WARNING: Es handelt sich nur um eine Übung. Wie beschrieben, handelt es sich bei der Änderung einer übergebenen Liste in einer Funktion um einen _Seiteneffekt_, der vermieden werden sollte. In dem Beispiel könnte man z.B. eine Kopie der Liste zurückgeben (was aber entsprechenden Speicherplatz beansprucht).	
 	
@@ -291,6 +300,13 @@ print(s) # lokal
 
 * Vermeiden Sie den Zugriff auf globale Variable in Funktionen.
 * Benennen Sie globale und lokale Variable unterschiedlich, so dass es gar nicht erst zu Namenskonflikten kommen kann.
+
+
+== Zusammenfassende Fragen
+
+* Was ist der Unterschied zwischen globalen und lokalen Variablen?
+* Wozu gibt es überhaupt lokale Variable?
+* Wie greift man in einer Funktion auf eine globale Variable zu?
 	
 
 == Standardwerte für Funktionsparameter
@@ -400,6 +416,13 @@ include::../Beispiele/Kapitel_4/tupel.py[]
 ----
 endif::beispiele[]
 
+
+== Weiteres Anwendungsbeispiel Tupel
+
+In der Zusatzaufgabe zu Übung 8A sollte die Funktion neben der Länge des längsten Wortes auch die Nummer des längsten Wortes zurückgeben. 
+
+Überlegen Sie, wie die Datenstruktur Tupel Ihnen dabei behilflich sein kann!
+
 == Sortierung von Listen
 
 * Erinnerung: Eine Liste ist eine Sequenz von Objekten
@@ -407,8 +430,8 @@ endif::beispiele[]
 [source,python]
 ----
 l = []
-l = [1, "Hallo"]
-l.append("Welt")
+l = ["Cäsar", "Anton", "Berta"]
+l.append("Emil")
 ----
 
 * `l.sort()`: Die Liste wird sortiert (`l` wird verändert)
@@ -477,9 +500,34 @@ x = f()   <2>
 
 == icon:question-circle[] Übung 10 - Römische Zahlen sortieren
 
-Schreiben Sie ein Programm, das eine Liste von römischen Zahlen nach ihrem Wert sortiert.
+Gegeben sei eine Liste mit Zeichenketten, die römische Zahlen repräsentieren, z.B.
 
-siehe Ordner `10_uebung_roemische_zahl_sortieren`
+[source,python]
+----
+liste = ["X","CXX","V"]
+----
+
+Wenn diese Liste alphabetisch sortiert wird, ist das Ergebnis
+
+[source,python]
+----
+['CXX', 'V', 'X']
+----
+
+Eine korrekte Sortierung nach dem Wert der Zahlen wäre aber
+
+[source,python]
+----
+['V', 'X', 'CXX']
+----
+
+Schreiben Sie ein Programm, das eine Liste von römischen Zahlen korrekt nach ihrem Wert sortiert
+(siehe Ordner `10_uebung_roemische_zahl_sortieren`).
+
+
+== Zusammenfassende Fragen
+
+Was sind Funktionsreferenzen und wofür können Sie verwendet werden?
 
 
 == icon:question-circle[] Weitere Übungen Funktionen <<Kle>>
