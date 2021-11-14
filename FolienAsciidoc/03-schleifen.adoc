@@ -193,6 +193,17 @@ Vervollständigen Sie Ihr Arbeitsblatt mit der neuen Kontrollanweisung *Schleife
 * Wird die `for`-Schleife benötigt? Wie würden Sie über die Zeichen einer Zeichenkette schleifen, wenn nur die `while`-Schleife zur Verfügung stünde?
 
 
+== Anmerkung
+
+Die Konzepte
+
+* Zuweisung
+* Fallunterscheidung
+* Schleife
+
+sind ausreichend, um beliebige Programme schreiben zu können, d.h. mit Zuweisungen, Fallunterscheidungen und Schleifen kann man alle Probleme lösen,
+die man mit einem Rechner lösen kann.
+
 == icon:question-circle[] Übung 05 - Schleife
 
 * Schreiben Sie ein Programm, das als Eingabe erhält:
@@ -602,6 +613,16 @@ for value in d.values():
 * Wozu wird es bnötigt?
 * Ergänzen Sie Ihr Arbeitsblatt um die Datenstruktur *dictionary*!
 
+
+== icon:question-circle[] Übung 07A - Dictionary
+
+* Schreiben Sie ein Programm, das nach Eingabe eines Symbols einer römischen Zahl den zugehörigen Dezimalwert zurückgibt.
+* Beispiel:
+** Eingabe: `X`
+** Ausgabe: 10
+* Verwenden Sie dafür ein Dictionary (Schlüssel: Symbol, Wert: zugehörige Zahl
+* Symbole: `"I" &#x2259; 1, "V" &#x2259; 5, "X" &#x2259; 10, "L" &#x2259; 50, "C" &#x2259; 100, "D" &#x2259; 500, "M" &#x2259; 1000`
+* siehe Ordner `uebungen/07A_uebung_dict_roem`	
 
 == Schleifen - Programmierprinzipien und Beispiele
 
