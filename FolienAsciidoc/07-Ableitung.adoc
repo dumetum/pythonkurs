@@ -289,6 +289,7 @@ Selbst programmieren! Anregungen:
 * Code-Katas: siehe https://de.wikipedia.org/wiki/Kata_(Programmierung)
 * c't-Sonderheft: Python-Projekte: Von alltagstauglich bis völlig nerdig
 * s. auch Projekte aus <<Mat>>
+* Für Mathematik-Interessierte: projekteuler.de
 
 
 == icon:question-circle[] Weitere Übungen
