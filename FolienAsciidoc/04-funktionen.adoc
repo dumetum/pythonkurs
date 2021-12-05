@@ -129,6 +129,7 @@ Auch Funktionen genügen dem EVA-Prinzip:
 * *Verarbeitung*: Im Funktionsrumpf
 * *Ausgabe*: Rückgabewert per return
 
+Bemerkung: Die Anweisungen außerhalb einer Funktion nennt man auch *Hauptprogramm*.
 
 == Zusammenfassende Fragen
 
@@ -187,7 +188,7 @@ print(a) <2>
 ----
 
 <1> Die lokale Variable `b` hat nun den Wert `2`.
-<2> Die Variable `a` im Hauptprogramm hat nach wie vor den Wert `1`
+<2> Die Variable `a` an der Aufrufstelle hat nach wie vor den Wert `1`
 
 ifdef::tafel[== Erläuterung]
 
