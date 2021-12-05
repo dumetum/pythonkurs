@@ -55,6 +55,8 @@ Die Demonstration der Beispiele und die Bearbeitung der Übungsaufgaben kann mit
 
 Sinnvoll ist auch die Verwendung von thonny (https://thonny.org/), einer Python-Entwicklungsumgebung, die sich speziell an Anfänger richtet.
 
+Des weiteren gibt es zur Übung ein umfangreiches Fallbeispiel (UebungenFallbeispielZeiterfassung), das durch die Teilnehmer nach Bedarf und Kenntnisstand parallel zu Hause bearbeitet werden kann.
+
 ## Konzept
 
 Es gibt Python-Lehrbücher, die mit der Vorstellung aller Python-Typen beginnen. In einem Anfängerkurs hat sich das für mich nicht bewährt. Daher starte ich mit dem, was die Menschen (vom Taschenrechner) sowieso schon kennen, nämlich mit Zahlen.
