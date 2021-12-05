@@ -5,6 +5,7 @@ Das Repository enthält Unterlagen für einen Pythonkurs für Programmieranfäng
 * Folien (Asciidoc und PDF)<sup>2</sup>
 * Beispiele
 * Übungen (Vorlagen zur Bearbeitung und Lösungsvorschläge)
+* Fallbeispiel (Zeiterfassung)
 
 Die Unterlagen sind für ein Sebststudium nur bedingt geeignet. 
 Sie sind als begleitende Unterlagen zu einer Präsenzveranstaltung gedacht.
