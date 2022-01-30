@@ -287,6 +287,7 @@ Selbst programmieren! Anregungen:
 
 * https://bmu-verlag.de/programmierideen-vorschlaege-fuer-die-umsetzung-eigener-programme/
 * Code-Katas: siehe https://de.wikipedia.org/wiki/Kata_(Programmierung)
+* Programmieraufgaben aus <<Ind>>
 * c't-Sonderheft: Python-Projekte: Von alltagstauglich bis völlig nerdig
 * s. auch Projekte aus <<Mat>>
 * Für Mathematik-Interessierte: projekteuler.de
@@ -311,3 +312,4 @@ Selbst programmieren! Anregungen:
 * [[[Kle]]] Bernd Klein, Einführung in Python 3
 * [[[EK]]]  Johannes Ernesti, Peter Kaiser: Python 3, Das umfassende Handbuch, Rheinwerk Computing
 * [[[Mat]]] Eric Matthes: Python Crashkurs – Eine praktische, projektbasierte Programmiereinführung, dpunkt.verlag
+* [[[Ind]]] Michael Inden: Python Challenge - Fit für Prüfung, Job-Interview und Praxis
