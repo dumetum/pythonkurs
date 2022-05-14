@@ -241,14 +241,28 @@ x   x
 
 == Fallbeispiel
 
-* Aufgabenstellung: Der Anwender gibt eine a priori nicht bekannte Anzahl von Zeichenketten ein.
-(Die Zeichenketten können beispielsweise auch aus einer Datei kommen).
-* Es soll die Anzahl unterschiedlicher Zeichenketten bestimmt werden.
-* Problem: Da die Anzahl der Zeichenketten nicht bekannt ist, kann nicht für jede Zeichenkette eine Variable eingeführt werden.
-* Da alle Zeichenketten verglichen werden müssen, funktioniert auch das Vorgehen bei der Durchschnittsberechnung nicht
+* Aufgabenstellung: Der Anwender gibt eine a priori nicht bekannte Anzahl von Zeichenketten ein, z.B. Namen.
+* Es soll die Anzahl unterschiedlicher Namen bestimmt werden.
+* Problem: Da die Anzahl der Namen nicht bekannt ist, kann nicht für jeden Namen eine Variable eingeführt werden.
+* Da alle Namen verglichen werden müssen, funktioniert auch das Vorgehen bei der Durchschnittsberechnung nicht
 (addiere die eingegebenen Zahlen so lange nicht `ende` eingegeben wird).
-* Wir brauchen also eine Möglichkeit, mehrere Werte in einer Datenstruktur zu speichern.
-* In Python gibt es dazu den Datentyp Liste (`list`).
+* Wir brauchen also eine Möglichkeit, mehrere Namen in einer Datenstruktur zu speichern.
+
+== Fallbeispiel in Pseudocode
+
+----
+Initialisiere eine Liste mit den unterschiedlichen Namen (zunächst leer)
+
+Eingabe eines Namens
+so lange der eingegebene Name ungleich "Ende":
+    wenn der eingegebene Name noch nicht in der Liste ist:
+        fuege den Namen in die Liste ein
+    Eingabe des naechsten Namens
+
+Gebe die Anzahl der Einträge in der Liste aus.
+----
+
+In Python gibt es dazu den Datentyp Liste (`list`).
 
 == Der Datentyp Liste
 
@@ -283,17 +297,7 @@ siehe:  `beispiel_liste.py`  icon:exclamation-circle[]
 
 [source,python]
 ----
-mitgliederliste = []
-anzahl = int(input("Wieviele Mitglieder wollen Sie eingeben: "))
-nummer = 0
-while nummer < anzahl:
-   nummer = nummer + 1
-   neues_mitglied = input("Geben Sie den Namen des Mitgliedes ein: ")
-   if neues_mitglied in mitgliederliste:
-       print("Dieses Mitglied gibt es schon!")
-   else: mitgliederliste.append(neues_mitglied)
-   
-print("Es gibt", len(mitgliederliste), "Mitglieder!")
+include::../Beispiele/Kapitel_3/beispiel_liste.py[]
 ----
 
 
